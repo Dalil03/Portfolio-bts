@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaPython, FaDatabase, FaGraduationCap, FaBriefcase, FaCode } from 'react-icons/fa';
-import Layout from '../app/Layout/Layout';
+import Layout from './Layout';
 
 export default function About() {
   return (

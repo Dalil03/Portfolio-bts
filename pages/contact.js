@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import Layout from '../app/Layout/Layout';
+import Layout from './Layout';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Contact() {

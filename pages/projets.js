@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Layout from '@/app/Layout/Layout';
-import ProjectCard from '../app/components/ProjetCard';
+import Layout from './Layout';
+import ProjectCard from './components/ProjetCard';
 
 export default function Projets() {
   // Exemple de projets - à remplacer par vos propres projets

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout from '../app/Layout/Layout';
+import Layout from './Layout';
 import { FaGraduationCap, FaBriefcase, FaMedal } from 'react-icons/fa';
 
 export default function Parcours() {

@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Layout from '../app/Layout/Layout';
-import VeilleCard from '../app/components/VeilleCard';
+import Layout from './Layout';
+import VeilleCard from './components/VeilleCard';
 
 export default function Veille() {
   // Exemples de sujets de veille - à remplacer par vos propres sujets

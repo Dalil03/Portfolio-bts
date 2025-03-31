@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import Layout from '../app/Layout/Layout';
-import DocCard from '../app/components/DocCard';
+import Layout from './Layout';
+import DocCard from './components/DocCard';
 import { FaSearch, FaFilter } from 'react-icons/fa';
 
 export default function Documentation() {

@@ -2,14 +2,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "./Layout";
+import  RootLayout from "./Layout";
 import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
 
 export default function Home() {
   return (
 
  
-    <Layout>
+    <RootLayout>
       <Head>
         <title>Portfolio BTS SIO - Accueil</title>
         <meta name="description" content="Portfolio BTS SIO" />
@@ -112,6 +112,6 @@ export default function Home() {
           </Link>
         </div>
       </main>
-    </Layout>
+    </RootLayout>
   );
 }
