@@ -2,8 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "./Layout/Layout";
-import SynthesisTable from "./components/SynthesisTable";
+import Layout from "./Layout";
 import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
 
 export default function Home() {
@@ -18,7 +17,8 @@ export default function Home() {
       </Head>
 
 
-      <main className="container mx-auto px-4 py-8">
+      <main className="container
+      mt-24 mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between mb-12">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h1 className="text-4xl font-bold mb-4">Dalil Bousseiri</h1>
@@ -55,6 +55,13 @@ export default function Home() {
               >
                 <FaFileDownload className="mr-2" /> CV
               </a>
+              <a
+                href="/tableau.pdf"
+                target="_blank"
+                className="flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
+              >
+                <FaFileDownload className="mr-2" /> Tableau de synthèse
+              </a>
             </div>
           </div>
 
@@ -70,14 +77,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 border-b-2 pb-2">
-            Tableau de synthèse des compétences
-          </h2>
-          <SynthesisTable />
-        </div>
+     
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1  md:grid-cols-3 gap-8 mt-32">
           {/* Liens internes -> utiliser <Link> sans <a> */}
           <Link
             href="/projets"
