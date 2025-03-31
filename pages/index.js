@@ -56,7 +56,7 @@ export default function Home() {
                 <FaFileDownload className="mr-2" /> CV
               </a>
               <a
-                href="/tableau.pdf"
+                href="/Tableau.pdf"
                 target="_blank"
                 className="flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
               >

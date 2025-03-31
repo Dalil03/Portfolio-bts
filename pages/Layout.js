@@ -1,7 +1,7 @@
 // app/layout.js
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "./Layout/Navbar"; // Adjust path if needed
-
+import "./globals.css"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
