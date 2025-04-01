@@ -64,6 +64,14 @@ export default function Documentation() {
       date: "1-4-25",
       lien: "/inventaire.pdf"
     },
+    {
+      id: "doc-stage(2)",
+      titre: "Détails de mes missions",
+      description: "Documentation détaillée sur mes missions en entreprises en deuxième année",
+      categorie: "Outil",
+      date: "1-3-25",
+      lien: "/doc-stage-2eme.pdf"
+    },
   ];
   
   // État pour la recherche et le filtrage
