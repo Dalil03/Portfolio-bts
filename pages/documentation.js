@@ -88,6 +88,14 @@ export default function Documentation() {
       date: "1-3-25",
       lien: "/doc-rim.pdf"
     },
+    {
+      id: "doc-gant-trello",
+      titre: "Détails de gantt et trello",
+      description: "Documentation détaillée sur gantt et trello",
+      categorie: "Outil",
+      date: "1-3-25",
+      lien: "/doc-gantt-trello.pdf"
+    },
   ];
   
   // État pour la recherche et le filtrage
