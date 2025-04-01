@@ -66,7 +66,7 @@ export default function Documentation() {
     },
     {
       id: "doc-stage(2)",
-      titre: "Détails de mes missions",
+      titre: "Détails de mes missions stage 2ème année",
       description: "Documentation détaillée sur mes missions en entreprises en deuxième année",
       categorie: "Outil",
       date: "1-3-25",
@@ -74,7 +74,7 @@ export default function Documentation() {
     },
     {
       id: "doc-stage(1)",
-      titre: "Détails de mes missions",
+      titre: "Détails de mes missions stage 1ème année",
       description: "Documentation détaillée sur mes missions en entreprises en 1ère année",
       categorie: "Outil",
       date: "1-3-25",
@@ -82,7 +82,7 @@ export default function Documentation() {
     },
     {
       id: "doc-rim",
-      titre: "Détails de mes missions",
+      titre: "Doc rim",
       description: "Documentation détaillée sur mon projet rim",
       categorie: "Outil",
       date: "1-3-25",
@@ -90,7 +90,7 @@ export default function Documentation() {
     },
     {
       id: "doc-gant-trello",
-      titre: "Détails de gantt et trello",
+      titre: "doc trello gantt",
       description: "Documentation détaillée sur gantt et trello",
       categorie: "Outil",
       date: "1-3-25",
