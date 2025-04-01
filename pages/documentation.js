@@ -62,7 +62,7 @@ export default function Documentation() {
       description: "Documentation détaillée sur les différents composants de l'inventaire",
       categorie: "Outil",
       date: "1-4-25",
-      lien: "/Inventaire.pdf"
+      lien: "/inventaire.pdf"
     },
   ];
   
