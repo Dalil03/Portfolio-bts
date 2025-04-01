@@ -96,6 +96,15 @@ export default function Documentation() {
       date: "1-3-25",
       lien: "/doc-gantt-trello.pdf"
     },
+    {
+      id: "doc-feedly",
+      titre: "doc feedly",
+      description: "Documentation détaillée sur feedly",
+      categorie: "Outil",
+      date: "1-3-25",
+      lien: "/doc-feedly.pdf"
+    },
+
   ];
   
   // État pour la recherche et le filtrage
