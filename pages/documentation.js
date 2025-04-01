@@ -80,6 +80,14 @@ export default function Documentation() {
       date: "1-3-25",
       lien: "/doc-1.pdf"
     },
+    {
+      id: "doc-rim",
+      titre: "Détails de mes missions",
+      description: "Documentation détaillée sur mon projet rim",
+      categorie: "Outil",
+      date: "1-3-25",
+      lien: "/doc-rim.pdf"
+    },
   ];
   
   // État pour la recherche et le filtrage
