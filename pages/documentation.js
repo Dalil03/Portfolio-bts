@@ -56,6 +56,14 @@ export default function Documentation() {
       date: "5-10-24",
       lien: "/doc-googleAlert.pdf"
     },
+    {
+      id: "Inventaire",
+      titre: "Détails de l'inventaire",
+      description: "Documentation détaillée sur les différents composants de l'inventaire",
+      categorie: "Outil",
+      date: "1-4-25",
+      lien: "/Inventaire.pdf"
+    },
   ];
   
   // État pour la recherche et le filtrage
