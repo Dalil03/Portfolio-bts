@@ -7,7 +7,7 @@ export default function Veille() {
   const veilleSujets = [
     {
       id: 1,
-      titre: "Yu, Une IA PDG",
+      titre: "Yu,Une IA PDG",
       description: "PDG Yu est une figure influente de l'industrie technologique chinoise, connue pour son leadership visionnaire et ses contributions dans le domaine des innovations. Elle incarne le succès des entreprises émergentes et leur impact mondial, notamment à travers des initiatives stratégiques dans les marchés numériques. Sous sa direction, des progrès significatifs ont été réalisés en intelligence artificielle, commerce en ligne et transformation numérique. Sa vision continue de transformer l'économie numérique chinoise, tout en renforçant son rayonnement international.",
       liens: [
         { titre: "diaporama", url: "https://www.canva.com/design/DAF9tMiuDyo/rstAY0sGcVaPOcl6P5_FHw/edit" },
