@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaPython, FaDatabase, FaGraduationCap, FaBriefcase, FaCode } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaPhp, FaDatabase,  } from 'react-icons/fa';
 import Layout from './Layout';
 
 export default function About() {
@@ -174,18 +174,20 @@ export default function About() {
                 </div>
                 <p className="text-gray-600 dark:text-gray-300">Développement back-end et APIs RESTful</p>
               </div>
-              
-              <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 transition-all hover:shadow-xl hover:border-blue-300">
+              <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 transition-all hover:shadow-xl hover:border-green-300">
                 <div className="flex items-center mb-4">
-                  {/* <FaPython className="text-5xl text-blue-600 mr-4" />
+                  <FaPhp className="text-5xl text-violet-600 mr-4" />
                   <div>
-                    <h3 className="text-xl font-semibold">Python</h3>
+                    <h3 className="text-xl font-semibold">PHP</h3>
                     <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-                      <div className="bg-blue-600 h-2.5 rounded-full w-6/12"></div>
+                      <div className="bg-violet-600 h-2.5 rounded-full w-7/12"></div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
-                {/* <p className="text-gray-600 dark:text-gray-300">Traitement de données et automatisation</p> */}
+                <p className="text-gray-600 dark:text-gray-300">Développement back-end et APIs RESTful</p>
+              </div>
+              <div >
+                
               </div>
               
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 transition-all hover:shadow-xl hover:border-gray-300" style={{gridColumn: "span 3"}}>
