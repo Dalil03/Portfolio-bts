@@ -14,22 +14,22 @@ export default function About() {
 
         <main>
           <section className="mb-20">
-            <div className="text-center mb-8">
-              <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">À propos de moi</h1>
-              <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
-            </div>
+            {/* <div className="text-center mb-8"> */}
+              {/* <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">À propos de moi</h1> */}
+              {/* <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div> */}
+            {/* </div> */}
             
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
+            {/* <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
               <p className="text-lg mb-6 leading-relaxed">
                 Après mon bac pro en maintenance automobile, je me suis réorienté vers l'informatique, ma véritable passion. J'ai suivi une formation chez DORANCO où j'ai appris HTML, CSS, JavaScript, PHP, SQL et j'ai poursuivi mon apprentissage en autodidacte avant de m'inscrire à l'école IPSSI.
               </p>
               <p className="text-lg leading-relaxed">
                 Ma première expérience professionnelle en programmation informatique a été la refonte du site de l'association "VivreDebout", où j'ai été chargé de la partie front-end.
               </p>
-            </div>
+            </div> */}
           </section>
 
-          <section className="mb-20">
+          {/* <section className="mb-20">
             <div className="text-center mb-8">
               <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 inline-block text-transparent bg-clip-text">Mon parcours</h2>
               <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
@@ -73,7 +73,7 @@ export default function About() {
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block w-2 h-2 bg-green-500 rounded-full mt-2 mr-2"></span>
-                    <span>Projets clients lors de la formation IPSSI</span>
+                    <span>Développeur chez "1 plus V"</span>
                   </li>
                 </ul>
               </div>
@@ -88,7 +88,7 @@ export default function About() {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 mr-2"></span>
-                    <span>Formation continue en ligne (Udemy, OpenClassrooms)</span>
+                    <span>Formation continue en ligne </span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 mr-2"></span>
@@ -101,7 +101,7 @@ export default function About() {
                 </ul>
               </div>
             </div>
-          </section>
+          </section> */}
 
           <section className="mb-10">
             <div className="text-center mb-8">
@@ -177,15 +177,15 @@ export default function About() {
               
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 transition-all hover:shadow-xl hover:border-blue-300">
                 <div className="flex items-center mb-4">
-                  <FaPython className="text-5xl text-blue-600 mr-4" />
+                  {/* <FaPython className="text-5xl text-blue-600 mr-4" />
                   <div>
                     <h3 className="text-xl font-semibold">Python</h3>
                     <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
                       <div className="bg-blue-600 h-2.5 rounded-full w-6/12"></div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <p className="text-gray-600 dark:text-gray-300">Traitement de données et automatisation</p>
+                {/* <p className="text-gray-600 dark:text-gray-300">Traitement de données et automatisation</p> */}
               </div>
               
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 transition-all hover:shadow-xl hover:border-gray-300" style={{gridColumn: "span 3"}}>
@@ -201,7 +201,7 @@ export default function About() {
                         </div>
                       </div>
                       <div>
-                        <span className="text-sm font-medium">MongoDB</span>
+                        {/* <span className="text-sm font-medium">MongoDB</span>
                         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-1">
                           <div className="bg-gray-600 h-2.5 rounded-full w-7/12"></div>
                         </div>
@@ -210,7 +210,7 @@ export default function About() {
                         <span className="text-sm font-medium">PostgreSQL</span>
                         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-1">
                           <div className="bg-gray-600 h-2.5 rounded-full w-6/12"></div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

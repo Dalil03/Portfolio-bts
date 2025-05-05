@@ -15,7 +15,7 @@ export default function Projets() {
     },
     {
       id: 2,
-      titre: "Site web dynamique (AP2)",
+      titre: "(AP2)",
       description: "Création du site web de l'entreprise fictive Fusion Taste.",
       technologies: [ "trello", "Gantt","Uml"],
       image: "/gantt.png",
@@ -33,7 +33,7 @@ export default function Projets() {
     id: 5,
     titre: "Application mobile GSB (AP4)",
     description: "Développement de l'application mobile GSB. ",
-    technologies: ["Dart", "C++", "Ruby","Cmake"],
+    technologies: ["flutter"],
     image: "/projets/app-mobile.jpg",
     lien: "https://github.com/Shabich/MediCall"
   },
@@ -41,9 +41,41 @@ export default function Projets() {
       id: 6,
       titre: "Site web Vivre Debout",
       description: "Site web pour l'association Vivre debout effectuer en stage de 1ère année.",
-      technologies: ["Javascript", "CSS"],
+      technologies: ["React"],
       image: "/vivredebout.png",
       lien: "https://github.com/Dalil03/VivreDeboutPrototype"
+    },
+    {
+      id: 7,
+      titre: "Site web Fleepit Belem Lyrics ",
+      description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
+      technologies: ["php", "CSS","html"],
+      image: "/belem-image.png",
+      lien: "https://belem.fleepit.com/"
+    },
+    {
+      id: 8,
+      titre: "Site web TAE Paris ",
+      description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
+      technologies: ["php", "CSS","html"],
+      image: "/TAE-Paris.png",
+      lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/TAEParis/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
+    },
+    {
+      id: 9,
+      titre: "Site web AJUP ",
+      description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
+      technologies: ["php", "CSS","html"],
+      image: "/AJUP.png",
+      lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/Ajup/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
+    },
+    {
+      id: 10,
+      titre: "Site web TAE ",
+      description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
+      technologies: ["php", "CSS","html"],
+      image: "/TAE-Affaire.png",
+      lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/Ajup/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
     },
 
   ];
