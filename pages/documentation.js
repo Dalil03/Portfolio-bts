@@ -81,14 +81,6 @@ export default function Documentation() {
       lien: "/doc-1.pdf"
     },
     {
-      id: "doc-rim",
-      titre: "Doc rim",
-      description: "Documentation détaillée sur mon projet rim",
-      categorie: "Outil",
-      date: "1-3-25",
-      lien: "/doc-rim.pdf"
-    },
-    {
       id: "doc-gant-trello",
       titre: "doc trello gantt",
       description: "Documentation détaillée sur gantt et trello",
