@@ -68,7 +68,7 @@ export default function Home() {
           <div className="md:w-1/3">
             <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-gray-300 mx-auto">
               <Image
-                src="/profile-image.jpg"
+                src="/image.jpg"
                 alt="Photo de profil"
                 fill
                 style={{ objectFit: "cover" }}
