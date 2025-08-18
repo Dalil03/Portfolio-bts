@@ -21,7 +21,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold mb-4">Dalil Bousseiri</h1>
             <h2 className="text-2xl text-gray-600 mb-6">Developpeur/Freelance</h2>
             <p className="text-lg text-gray-700 mb-6">
-              Bonjour je m'appelle Dalil Bousseiri, ayant plusieurs projets à mon actif, je serais ravie de mettre à votre disposition mon experience.
+             Bonjour, je m'appelle Dalil Bousseiri. Ayant plusieurs projets à mon actif, je serais ravi de mettre à votre disposition mon expérience.
             </p>
 
             {/* Liens externes */}
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
 
           <div className="md:w-1/3 ">
-            <div className="relative mb-20  shadow-xl  shadow-purple-600/30  w-64 h-64 rounded-full overflow-hidden   mx-auto">
+            <div className="relative mb-20  shadow-xl  shadow-purple-600/20  w-64 h-64 rounded-full overflow-hidden   mx-auto">
               <Image
                 src="/image.jpg"
                 alt="Photo de profil"
