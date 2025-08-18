@@ -67,8 +67,8 @@ export default function Home() {
               <div className="flex items-center flex-wrap gap-6 text-6xl">
 
                 <FaHtml5 className="text-orange-500" />
-                <img src="/tailwind.svg" alt="html" className="w-20 h-20"></img>
-                  <img src="/nextjs.png" alt="html" className="w-14 h-14"></img>
+                <Image src="/tailwind.svg" alt="html" className="w-20 h-20"></Image>
+                  <Image src="/nextjs.png" alt="html" className="w-14 h-14"></Image>
                 <FaCss3Alt className="text-blue-500" />
                 <FaJs className="text-yellow-500" />
                 <FaReact className="text-blue-400" />
