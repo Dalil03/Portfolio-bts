@@ -28,7 +28,7 @@ export default function Contact() {
 
 
 
-            <div className="bg-white text-center rounded-lg shadow-lg  shadow-purple-600/60 p-14 h-full">
+            <div className="bg-white text-center rounded-lg shadow-xl  shadow-purple-600/30 p-14 h-full">
 
 
               <h2 className="text-xl font-bold mb-6">Mes coordonnées</h2>

@@ -49,13 +49,13 @@ export default function Home() {
        
           </div>
 
-          <div className="md:w-1/3">
-            <div className="relative mb-20  w-64 h-64 rounded-full overflow-hidden border-4 border-gray-300 mx-auto">
+          <div className="md:w-1/3 ">
+            <div className="relative mb-20  shadow-xl  shadow-purple-600/30  w-64 h-64 rounded-full overflow-hidden   mx-auto">
               <Image
                 src="/image.jpg"
                 alt="Photo de profil"
                 fill
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover " }}
               />
             </div>
           </div>
@@ -67,8 +67,8 @@ export default function Home() {
               <div className="flex items-center flex-wrap gap-6 text-6xl">
 
                 <FaHtml5 className="text-orange-500" />
-                <Image src="/tailwind.svg" alt="html" className="w-20 h-20"></Image>
-                  <Image src="/nextjs.png" alt="html" className="w-14 h-14"></Image>
+                <img src="/tailwind.svg" alt="html" className="w-20 h-20" />
+                  <img src="/nextjs.png" alt="html" className="w-14 h-14" />
                 <FaCss3Alt className="text-blue-500" />
                 <FaJs className="text-yellow-500" />
                 <FaReact className="text-blue-400" />
