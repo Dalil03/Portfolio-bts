@@ -38,7 +38,7 @@ export default function Projets() {
       titre: " TAE Paris ",
       description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.",
       technologies: ["php", "CSS","html"],
-      image: "/TAE-Paris.png",
+      image: "/TAE-paris.png",
       lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/TAEParis/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
     },
     {
