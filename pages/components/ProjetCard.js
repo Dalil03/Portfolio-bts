@@ -28,7 +28,7 @@ export default function ProjectCard({ projet }) {
             {projet?.technologies?.map((tech, index) => (
               <span 
                 key={index} 
-                className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full"
+                className="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full"
               >
                 {tech}
               </span>
@@ -39,7 +39,7 @@ export default function ProjectCard({ projet }) {
         {projet?.lien && (
           <Link 
             href={projet.lien}
-            className="inline-block mt-2 text-blue-600 hover:text-blue-800 font-medium"
+            className="inline-block mt-2 text-purple-600 hover:text-purple-800 font-medium"
           >
             Voir les détails →
           </Link>

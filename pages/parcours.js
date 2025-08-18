@@ -66,14 +66,14 @@ export default function Parcours() {
         {/* Formations */}
         <div className="mb-12">
           <div className="flex items-center mb-6">
-            <FaGraduationCap className="text-blue-600 text-2xl mr-3" />
+            <FaGraduationCap className="text-purple-600 text-2xl mr-3" />
             <h2 className="text-2xl font-bold">Formation</h2>
           </div>
           
           <div className="space-y-6 pl-8 border-l-2 border-gray-200">
             {formations.map(formation => (
               <div key={formation.id} className="relative">
-                <div className="absolute -left-10 w-6 h-6 bg-blue-100 border-2 border-blue-600 rounded-full"></div>
+                <div className="absolute -left-10 w-6 h-6 bg-purple-100 border-2 border-purple-600 rounded-full"></div>
                 <div className="bg-white p-5 rounded-lg shadow-md">
                   <div className="text-sm text-gray-500 mb-1">{formation.periode}</div>
                   <h3 className="text-lg font-bold mb-1">{formation.titre}</h3>

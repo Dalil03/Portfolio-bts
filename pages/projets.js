@@ -6,77 +6,50 @@ export default function Projets() {
   // Exemple de projets - à remplacer par vos propres projets
   const projets = [
     {
-      id: 1,
-      titre: "Entreprise Fictive (AP1)",
-      description: "Création de l'entreprise fictive Fusion Taste.",
-      technologies: [ "canva"],
-      image: "/AP1.png",
-      lien: "https://github.com/Pakku73/tastewebsite2"
-    },
-    {
-      id: 2,
-      titre: "(AP2)",
-      description: "Création du site web de l'entreprise fictive Fusion Taste.",
-      technologies: [ "trello", "Gantt","Uml"],
-      image: "/gantt.png",
-      lien: "/documentation#ap2"
-    },
-    {
-     id: 4,
-     titre: "Site Web GSB (AP3)",
-     description: "Développement d'une application mobile pour la gestion de tâches personnelles.",
-     technologies: ["React", "TypeScript", "Tailwind CSS","Vite","Node.js","Express"],
-     image: "/AP3.png",
-     lien: "https://github.com/Shabich/GestInv"
+     id: 1,
+     titre: "rimconciergerie ",
+     description: "Site de conciergerie effectué en freelance.",
+     technologies: ["Next", "TypeScript","Tailwind CSS","Node.js","Express"],
+     image: "/rim.png",
+
+     lien: "https://rimconciergerie.fr/"
    },
-   {
-    id: 5,
-    titre: "Application mobile GSB (AP4)",
-    description: "Développement de l'application mobile GSB. ",
-    technologies: ["flutter"],
-    image: "/projets/app-mobile.jpg",
-    lien: "https://github.com/Shabich/MediCall"
-  },
+        {
+     id: 2,
+     titre: "kevannProduction",
+     description: "Site dédié aux prestations de production vidéo réalisées en freelance.",
+
+     technologies: ["Next", "TypeScript","Tailwind CSS"],
+     image: "/kevannProduction.png",
+
+     lien: "https://kevann-production-5qn6-h4n0i28az-dalil03s-projects.vercel.app/accueil"
+   },
+
     {
-      id: 6,
-      titre: "Site web Vivre Debout",
-      description: "Site web pour l'association Vivre debout effectuer en stage de 1ère année.",
-      technologies: ["React"],
-      image: "/vivredebout.png",
-      lien: "https://github.com/Dalil03/VivreDeboutPrototype"
-    },
-    {
-      id: 7,
-      titre: "Site web Fleepit Belem Lyrics ",
+      id: 3,
+      titre: "Fleepit Belem Lyrics (collaboration avec Deezer)",
       description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
       technologies: ["php", "CSS","html"],
       image: "/belem-image.png",
       lien: "https://belem.fleepit.com/"
     },
     {
-      id: 8,
-      titre: "Site web TAE Paris ",
-      description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
+      id: 4,
+      titre: " TAE Paris ",
+      description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.",
       technologies: ["php", "CSS","html"],
       image: "/TAE-Paris.png",
       lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/TAEParis/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
     },
     {
-      id: 9,
+      id: 5,
       titre: "Site web AJUP ",
-      description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
+      description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.",
       technologies: ["php", "CSS","html"],
       image: "/AJUP.png",
       lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/Ajup/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
     },
-    {
-      id: 10,
-      titre: "Site web TAE ",
-      description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
-      technologies: ["php", "CSS","html"],
-      image: "/TAE-Affaire.png",
-      lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/Ajup/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
-    },
+
 
   ];
 
