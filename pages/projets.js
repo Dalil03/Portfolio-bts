@@ -14,19 +14,19 @@ export default function Projets() {
 
      lien: "https://rimconciergerie.fr/"
    },
-        {
-     id: 2,
-     titre: "kevannProduction",
-     description: "Site dédié aux prestations de production vidéo réalisées en freelance.",
+  //       {
+  //    id: 2,
+  //    titre: "kevannProduction",
+  //    description: "Site dédié aux prestations de production vidéo réalisées en freelance.",
 
-     technologies: ["Next", "TypeScript","Tailwind CSS"],
-     image: "/kevannProduction.png",
+  //    technologies: ["Next", "TypeScript","Tailwind CSS"],
+  //    image: "/kevannProduction.png",
 
-     lien: "https://kevann-production-5qn6-h4n0i28az-dalil03s-projects.vercel.app/accueil"
-   },
+  //    lien: "https://kevann-production-5qn6-h4n0i28az-dalil03s-projects.vercel.app/accueil"
+  //  },
 
     {
-      id: 3,
+      id: 2,
       titre: "Fleepit Belem Lyrics (collaboration avec Deezer)",
       description: "Site web pour 1 Plus V effectué en stage de 2ème année.",
       technologies: ["php", "CSS","html"],
@@ -34,7 +34,7 @@ export default function Projets() {
       lien: "https://belem.fleepit.com/"
     },
     {
-      id: 4,
+      id: 3,
       titre: " TAE Paris ",
       description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.",
       technologies: ["php", "CSS","html"],
@@ -42,7 +42,7 @@ export default function Projets() {
       lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/TAEParis/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
     },
     {
-      id: 5,
+      id: 4,
       titre: "Site web AJUP ",
       description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.",
       technologies: ["php", "CSS","html"],
