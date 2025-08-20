@@ -37,7 +37,7 @@ export default function Projets() {
       id: 3,
       titre: " TAE Paris ",
       description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.(url confidentiel)",
-      technologies: ["php", "CSS","html"],
+      technologies: ["php", "CSS","html,javascript"],
       image: "/TAE-paris.png",
      
     },
@@ -45,7 +45,7 @@ export default function Projets() {
       id: 4,
       titre: "Site web AJUP ",
       description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.(url confidentiel)",
-      technologies: ["php", "CSS","html"],
+      technologies: ["php", "CSS","html,javascript"],
       image: "/AJUP.png",
       
     },
