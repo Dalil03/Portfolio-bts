@@ -36,18 +36,18 @@ export default function Projets() {
     {
       id: 3,
       titre: " TAE Paris ",
-      description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.",
+      description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.(url confidentiel)",
       technologies: ["php", "CSS","html"],
       image: "/TAE-paris.png",
-      lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/TAEParis/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
+     
     },
     {
       id: 4,
       titre: "Site web AJUP ",
-      description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.",
+      description: "Outils Pdf réalisé chez 1 Plus V en stage de 2ème année.(url confidentiel)",
       technologies: ["php", "CSS","html"],
       image: "/AJUP.png",
-      lien: "https://fleepit-digital.clients.ipsolution.fr/Sharepoint/Ajup/outils.php?tkn=ff9f8a2774994d2e9ec3a2dd2ef7bc6"
+      
     },
 
 
